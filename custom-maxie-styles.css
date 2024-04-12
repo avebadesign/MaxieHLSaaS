@@ -1,6 +1,6 @@
 /* Location dashboard wrapper */
 #location-dashboard .location-dashboard-wrapper {
-  background-color: #000000;
+  background-color: #000000;!important;
 }
 
 /* Division */

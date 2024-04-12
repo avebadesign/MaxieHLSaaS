@@ -1,5 +1,6 @@
-function applyCustomStyles() {
-  const styles = `
+<script type="text/javascript">
+(function () {
+  var styles = `
     /* Location dashboard wrapper */
     #location-dashboard .location-dashboard-wrapper {
       background-color: #000000;
@@ -80,7 +81,8 @@ function applyCustomStyles() {
     }
   `;
 
-  const styleElement = document.createElement('style');
+  var styleElement = document.createElement('style');
   styleElement.textContent = styles;
   document.head.appendChild(styleElement);
-}
+})();
+</script>
